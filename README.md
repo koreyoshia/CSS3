@@ -77,3 +77,14 @@ body{
 - 通过transform: scale(0.5);进行缩放；
 - 转化为怪异盒模型box-sizing: border-box; 
 
+- px相对单位——相对物理显示屏；
+- em相对单位——相对于font-size,有自己的相对于自己的，没有就相对于父级的；
+- font-size存在最小值；默认16px；一般不小于14px；
+- rem中的r表示root,HTML的根节点是HTML，相对于根节点定位；
+
+- 主题切换引入CSS文件；
+- pageshow和onload都是监听页面加载，但pageshow与缓存无关，每次都加载，onload存在缓存触发问题；
+- boostrap
+- orientation:landscape(横屏)； orientation:portrait（竖屏）；
+- 物理像素比dpr一定要加webkit前缀；
+
